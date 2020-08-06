@@ -27,6 +27,7 @@ public class Main {
             String threadName = Thread.currentThread().getName();
             Singleton s1 = Singleton.getSingletonInstance();
             System.out.println("线程 " + threadName + "\t => " + s1.hashCode());
+            // System.out.println("线程 " + threadName + "\t => " + top.shmly.design.created.singleton.s6.Singleton.SingletonInstance.hashCode());
         };
         for (int i = 0; i < 100; i++) {
             new Thread(task, "" + i).start();
