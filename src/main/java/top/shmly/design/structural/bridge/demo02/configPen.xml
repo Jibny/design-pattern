@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config>
+    <className>top.shmly.design.structural.bridge.demo02.color.Blue</className>
+    <className>top.shmly.design.structural.bridge.demo02.pen.SmallPen</className>
+</config>
